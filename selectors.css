@@ -1,0 +1,17 @@
+h1 {
+  /* This is a comment. */
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+p {
+  color: salmon;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
