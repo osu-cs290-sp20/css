@@ -1,3 +1,8 @@
+body {
+  background-color: beige;
+  margin-bottom: 500px;
+}
+
 h1 {
   /* This is a comment. */
   font-family: sans-serif;
@@ -14,4 +19,16 @@ p {
 
 .bold {
   font-weight: bold;
+}
+
+#site-title {
+  background-color: lime;
+}
+
+h1.italics {
+  border: 3px dashed purple;
+}
+
+#special-div p {
+  background-color: magenta;
 }

@@ -7,10 +7,11 @@
   </head>
   <body>
 
-    <h1 class="italics">This is the title</h1>
+    <h1 id="site-title" class="italics">This is the title</h1>
+    <h1>Another h1</h1>
 
     <div>
-      First div
+      First div <a href="#section-title">Jump to section</a>
       <p class="italics">First div's paragraph</p>
     </div>
 
@@ -19,11 +20,15 @@
       <p class="italics bold">Second div's paragraph</p>
     </div>
 
-    <div>
+    <div id="special-div">
       Third div
       <p class="italics">Third div's paragraph</p>
+      <div>
+        <p>This is a nested paragraph.</p>
+      </div>
     </div>
 
+    <h2 id="section-title">This is a new section</h2>
     <div>
       Fourth div
       <p>Fourth div's paragraph</p>
