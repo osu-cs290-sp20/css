@@ -18,3 +18,13 @@ p {
   border-top: 20px dotted magenta;
   margin-bottom: 200px;
 }
+
+.special-box {
+  background-color: lightblue;
+  border: 2px solid black;
+  display: inline-block;
+  width: 96px;
+  height: 96px;
+  padding: 10px;
+  margin: 20px;
+}
