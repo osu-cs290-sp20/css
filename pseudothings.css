@@ -1,3 +1,11 @@
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
+
+li:hover {
+  background-color: #88ff88;
+}
+
+a:focus {
+  font-weight: bold;
+}
